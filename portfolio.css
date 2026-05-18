@@ -1,0 +1,158 @@
+/* Replace 'Roboto' with your chosen font name */
+@import url('https://googleapis.com');
+
+body {
+
+    width: 100%;
+    
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Prosto One', sans-serif;
+  }
+  p, a, span, li {
+    font-family: 'poppins', sans-serif;
+
+
+  }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #121414;
+    color: #fff;
+    a{
+        color: white;
+        text-decoration: none;
+       
+    }
+}  
+
+#logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+#menu{
+
+    display: flex;
+    gap: 30px;
+}
+
+#btn
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+#resume-btn{
+    padding: 10px 20px;
+    background-color: #ffffff00;
+    color: White;
+    border: 3px solid white;
+    border-radius: 200px;
+    font-size: 16px;
+    
+}
+
+#contact-btn{
+
+    padding: 10px 20px;
+    background-color: #ff5625;
+    color: black;
+    font-size: 16px;
+    border-radius: 200px;
+    
+}
+
+#sec-one{
+
+    display: flex;
+    height: 70vh;
+    background-color: #121414;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    color: white;
+}
+
+#accent{
+
+    background-color: #1a1c1c;
+    color: white;
+    border: 2px solid #ff5625;
+    border-radius: 200px;
+    padding: 10px 30px;
+    font-weight: 500;
+}
+
+#heading{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+
+    h1{
+        font-size: 62px;
+        line-height: 78px;
+        font-weight: 700;
+        max-width: 800px;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 28px;
+        color: #c0c0c0;
+        max-width: 600px;
+    }
+}
+
+#cta{
+
+    display: flex;
+    gap: 10px;
+
+}
+
+.filled-cta{
+
+    background-color: #ff5625;
+    color: black;
+    border-radius: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    padding: 15px 40px;
+
+
+}
+
+.white-cta{
+
+    background-color: #ffffff00;
+    color: White;
+    border: 3px solid white;
+    border-radius: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 40px;
+
+}
