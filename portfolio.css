@@ -156,3 +156,72 @@ header{
     padding: 15px 40px;
 
 }
+
+#sec-two{
+
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #121414;
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+#sec-two-img{
+
+
+border: 20px solid #1E2020;
+/* padding: 14px; */
+border-radius: 20px;
+img{
+    border-radius: 20px;
+}
+
+}
+
+#sec-two-boxes{
+
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: center;
+   row-gap: 20px;
+   column-gap: 20px;
+
+}
+
+.sec-two-box{
+    
+    width: 80%;
+    padding: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-radius: 30px;
+    background-color: #282A2B;
+    column-gap: 20px;
+    border: none;
+    h3{
+        font-size: 45px;
+        line-height: 60px;
+        font-weight: 700;
+        color: #FFB5A1;
+    }
+
+    p{
+        font-size: 16px;
+        line-height: 28px;
+        color: #FFB5A1;
+    }
+
+    
+}
+.sec-two-box:hover{
+        border: 2px solid #ff5625;
+    }
